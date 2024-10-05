@@ -16,7 +16,7 @@ A RADIUS server is utilized for authenticating domain users, eliminating the nee
 VPN connections are functioning correctly.
 
 ## User Workflow 
-[Pseudocode Process](https://hjoseph777.github.io/VPNautomation/)
+Click me -> [Pseudocode Process](https://hjoseph777.github.io/VPNautomation/)
 ### Login Process
 1. Connect to the CAS-VPN.
 2. Use the Remote Desktop app to access the designated machine.
