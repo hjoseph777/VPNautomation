@@ -1,5 +1,5 @@
 # VPN Automation for Remote Users
-
+scroll down the end of the page
 ## Description
 To automate the VPN connections as a requirement for remote users accessing virtual machines via Microsoft Hyper-V, the following processes need to be established:
 
@@ -15,8 +15,8 @@ A RADIUS server is utilized for authenticating domain users, eliminating the nee
 ### Successful Connections
 VPN connections are functioning correctly.
 
-## User Workflow
-
+## User Workflow 
+[Pseudocode Process](https://hjoseph777.github.io/VPNautomation/)
 ### Login Process
 1. Connect to the CAS-VPN.
 2. Use the Remote Desktop app to access the designated machine.
