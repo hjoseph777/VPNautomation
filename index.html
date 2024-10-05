@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPN Automation Workflow</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .step {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .step h2 {
+            color: #2196F3;
+        }
+        .step p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>VPN Automation Workflow</h1>
+    <div class="step">
+        <h2>1. User Login</h2>
+        <p>Prompt user for login credentials.</p>
+    </div>
+    <div class="step">
+        <h2>2. Connect to CAS-VPN</h2>
+        <p>Execute command to connect to CAS-VPN.</p>
+        <p>Verify connection is successful.</p>
+    </div>
+    <div class="step">
+        <h2>3. Open Remote Desktop App</h2>
+        <p>Launch the Remote Desktop application.</p>
+    </div>
+    <div class="step">
+        <h2>4. Access Designated Machine</h2>
+        <p>Connect to the designated machine using Remote Desktop.</p>
+        <p>Verify connection is successful.</p>
+    </div>
+    <div class="step">
+        <h2>5. Work on Machine</h2>
+        <p>User performs necessary tasks on the machine.</p>
+    </div>
+    <div class="step">
+        <h2>6. Disconnect All Connections</h2>
+        <p>Execute command to disconnect from the designated machine.</p>
+        <p>Execute command to disconnect from CAS-VPN.</p>
+    </div>
+    <div class="step">
+        <h2>7. End Session</h2>
+        <p>Confirm all connections are terminated.</p>
+        <p>End user session.</p>
+    </div>
+</body>
+</html>
